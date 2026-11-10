@@ -3,7 +3,7 @@ package com.krakedev;
 public class Rectangulo {
 	public int base;
 	public int altura;
-	public int lado;
+	
 	
 	public int calcularArea() {
 		int area = base * altura;
@@ -15,8 +15,4 @@ public class Rectangulo {
 		return perimetro;
 	}
 	
-	public double CalcularAreaCuadrado() {
-		double area = Math.pow(lado, 2);
-		return area;
-	}
 }

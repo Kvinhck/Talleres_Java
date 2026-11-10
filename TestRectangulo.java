@@ -22,14 +22,8 @@ public class TestRectangulo {
 		r3.altura = 2;
 		r3.base = 4;
 		double resultadoPerimetro = r3.CalcularPerimetro();
-		System.out.println("Resultado perimetro: " + resultadoPerimetro);
+		System.out.println("Resultado perimetro del Rectangulo: " + resultadoPerimetro);
 		
-		Rectangulo r4 = new Rectangulo();
-		
-		r4.lado = 4;
-		double resultadoAreaCuadrado = r4.CalcularAreaCuadrado();
-		System.out.println("Resultado Area del Cuadrado: " + resultadoAreaCuadrado);
-				
 	}
 
 }
