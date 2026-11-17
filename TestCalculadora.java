@@ -11,8 +11,8 @@ public class TestCalculadora {
 		System.out.println("============================================");
 		
 		System.out.println("====================RESTA====================");
-		int r2;
-		r2 = c1.restar(8,7);
+		double r2;
+		r2 = c1.restar(8.0,7.0);
 		System.out.println("Resultado de la Resta: "+ r2);
 		System.out.println("=============================================");
 		
@@ -37,6 +37,16 @@ public class TestCalculadora {
 		System.out.println("==========================MENSAJE==========================");
 		c1.mostrarResultado();
 		System.out.println("===========================================================");
+		
+		Calculadora C2 = new Calculadora();
+		double r6;
+		double r7;
+		
+		r6 = C2.restar(100.5, 40.5);
+		System.out.println("Resta: "+r6);
+		
+		r7 = C2.descuento(200.0, 15.0);
+		System.out.println("Valor con el descuento: "+ r7);
 	}
 
 }

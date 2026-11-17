@@ -3,18 +3,18 @@ package com.krakedev;
 public class TestCuadrado {
 
 	public static void main(String[] args) {
-		Cuadrado r1 = new Cuadrado();
-		r1.setLado(8);
+		Cuadrado r1 = new Cuadrado(8);
+		//r1.setLado(8);
 		double resultadoAreaCuadrado = r1.calcularArea();
 		double resultadoPerimetroCuadrado = r1.calcularPerimetro();
 
-		Cuadrado r2 = new Cuadrado();
-		r2.setLado(3);
+		Cuadrado r2 = new Cuadrado(3);
+		//r2.setLado(3);
 		double resultadoAreaCuadrado2 = r2.calcularArea();
 		double resultadoPerimetroCuadrado2 = r2.calcularPerimetro();
 
-		Cuadrado r3 = new Cuadrado();
-		r3.setLado(9);
+		Cuadrado r3 = new Cuadrado(9);
+		//r3.setLado(9);
 		double resultadoAreaCuadrado3 = r3.calcularArea();
 		double resultadoPerimetroCuadrado3 = r3.calcularPerimetro();
 

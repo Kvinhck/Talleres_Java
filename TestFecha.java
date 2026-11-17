@@ -4,11 +4,11 @@ public class TestFecha {
 
 	public static void main(String[] args) {
 		
-		Fecha f1 = new Fecha();
+		Fecha f1 = new Fecha(28,06,2006);
 		
-		f1.setAnio(2026);
-		f1.setMes(4);
-		f1.setDia(20);
+		//f1.setAnio(2026);
+		//f1.setMes(4);
+		//f1.setDia(20);
 		
 		System.out.println("Año: " + f1.getAnio());
 		System.out.println("Mes: " + f1.getMes());
